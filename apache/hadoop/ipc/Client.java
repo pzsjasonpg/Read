@@ -49,6 +49,7 @@ import org.apache.hadoop.io.UTF8;
  * @see Server
  */
 public class Client {
+	//获取一个Logger对象，并对其命名
   public static final Logger LOG =
     LogFormatter.getLogger("org.apache.hadoop.ipc.Client");
 

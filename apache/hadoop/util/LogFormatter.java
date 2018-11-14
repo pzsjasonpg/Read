@@ -46,6 +46,9 @@ public class LogFormatter extends Formatter {
 
   /** Gets a logger and, as a side effect, installs this as the default
    * formatter. */
+  /**
+   * 调用java.util.logging.Logger的方法，返回一个Logger对象
+   */
   public static Logger getLogger(String name) {
     // just referencing this class installs it
     return Logger.getLogger(name);
